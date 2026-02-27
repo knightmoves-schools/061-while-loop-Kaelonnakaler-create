@@ -1,9 +1,10 @@
-let todos = ['Red', 'Blue', 'Green',];
-
 function markAsDone(todos){
-  while (let i = 1; i < todos.length; i++) {
-    todos[i] = 'done -' + todos[i];
+  let i = 0;
+  while(i < 1 todos.length) {
+    todos[i] = "done -" + todos [i];
+    i++;
   }
   return todos;
 }
+
 
